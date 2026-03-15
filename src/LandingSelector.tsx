@@ -9,8 +9,8 @@ const LandingSelector = () => {
       <div className="max-w-[90rem] mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
           <motion.button
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0,}}
+            animate={{ opacity: 1,}
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
             onClick={() => navigate("/meble")}
             className="group relative overflow-hidden rounded-sm bg-grey border-2 border-yellow/20 hover:border-yellow transition-all duration-500 h-[400px] md:h-[500px]"
