@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Phone, MapPin, Clock, MessageCircle } from "lucide-react";
+import { Phone, MapPin, Clock, MessageCircle, Mail } from "lucide-react";
 
 const KamperyPage = () => {
   return (
@@ -241,6 +241,23 @@ const KamperyPage = () => {
                       className="text-white/80 text-3 hover:text-yellow transition-colors duration-300 inline-block"
                     >
                       +48 669 004 609
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-yellow/10 rounded-sm flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-6 h-6 text-yellow" />
+                  </div>
+                  <div>
+                    <h3 className="text-yellow font-bold text-4 mb-2">
+                      Email
+                    </h3>
+                    <a
+                      href="mailto:biuro@darkoak.pl"
+                      className="text-white/80 text-3 hover:text-yellow transition-colors duration-300 inline-block"
+                    >
+                      biuro@darkoak.pl
                     </a>
                   </div>
                 </div>
