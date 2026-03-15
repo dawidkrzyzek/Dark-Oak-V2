@@ -58,7 +58,7 @@ const LandingSelector = () => {
           >
             <div className="absolute inset-0">
               <img
-                src="https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                src="/kampery-bg.webp"
                 alt="Kampery i przyczepy kempingowe - serwis i budowa"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
