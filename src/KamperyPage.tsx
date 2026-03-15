@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Phone, MapPin, Clock } from "lucide-react";
+import { Phone, MapPin, Clock, MessageCircle } from "lucide-react";
 
 const KamperyPage = () => {
   return (
@@ -9,20 +9,31 @@ const KamperyPage = () => {
           <a href="/" className="flex items-center gap-3">
             <img src="/logo.png" alt="Dark Oak" className="h-10 w-auto" />
           </a>
-          <a
-            href="/"
-            className="text-white hover:text-yellow transition-colors duration-300 font-bold text-3"
-          >
-            Powrót do strony głównej
-          </a>
+          <div className="flex items-center gap-4">
+            <a
+              href="https://wa.me/48669004609"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-yellow hover:bg-hover text-grey font-bold text-2 md:text-3 px-4 md:px-6 py-2 md:py-3 rounded-sm transition-all duration-500 hover:shadow-[0_8px_30px_rgba(227,178,20,0.4)] hover:translate-y-[-2px]"
+            >
+              <MessageCircle className="w-4 h-4 md:w-5 md:h-5" />
+              <span>Zacznij projekt</span>
+            </a>
+            <a
+              href="/"
+              className="text-white hover:text-yellow transition-colors duration-300 font-bold text-2 md:text-3"
+            >
+              Powrót
+            </a>
+          </div>
         </div>
       </nav>
 
       <main className="pt-20">
         <section className="relative h-[60vh] md:h-[70vh] w-full overflow-hidden">
           <img
-            src="https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg?auto=compress&cs=tinysrgb&w=1920"
-            alt="Kamper na malowniczej górskiej trasie"
+            src="https://images.pexels.com/photos/2526105/pexels-photo-2526105.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Kamper van - profesjonalny serwis i budowa"
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
@@ -41,11 +52,9 @@ const KamperyPage = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
-                className="text-white text-4 md:text-5 font-medium leading-relaxed"
+                className="text-white text-3 md:text-4 font-medium leading-relaxed px-4"
               >
-                Profesjonalny serwis i naprawy oraz budowy na zamówienie
-                <br className="hidden md:block" />
-                kampery i przyczepy kempingowe
+                Profesjonalny serwis i naprawy oraz budowy na zamówienie kamperów i przyczep kempingowych
               </motion.p>
             </div>
           </div>
@@ -200,23 +209,22 @@ const KamperyPage = () => {
                 transition={{ duration: 0.8 }}
                 className="space-y-8"
               >
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-yellow/10 rounded-sm flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-yellow" />
-                  </div>
-                  <div>
-                    <h3 className="text-yellow font-bold text-4 mb-2">
-                      Adres Warsztatu
-                    </h3>
-                    <p className="text-white/80 text-3 leading-relaxed">
-                      ul. Fińska 88B
-                      <br />
-                      75-430 Koszalin
-                    </p>
-                    <p className="text-white/60 text-2 mt-2">
-                      Nasz warsztat znajduje się na ul. Koszalińska 42 w Suchej
-                      Koszalińskiej.
-                    </p>
+                <div>
+                  <h3 className="text-yellow font-bold text-4 mb-4 flex items-center gap-3">
+                    <MapPin className="w-6 h-6" />
+                    Lokalizacja Warsztatu
+                  </h3>
+                  <div className="w-full h-[300px] md:h-[350px] rounded-sm overflow-hidden border border-yellow/20">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2403.055716401219!2d18.7320836!3d52.9654121!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbeb428118e7ff97%3A0xfd6351632a3f0100!2sSerwis%20rowerowy!5e0!3m2!1sen!2suk!4v1773587430633!5m2!1sen!2suk"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Lokalizacja warsztatu Dark Oak Kampery"
+                    />
                   </div>
                 </div>
 
@@ -229,10 +237,10 @@ const KamperyPage = () => {
                       Telefon
                     </h3>
                     <a
-                      href="tel:+48517528292"
+                      href="tel:+48669004609"
                       className="text-white/80 text-3 hover:text-yellow transition-colors duration-300 inline-block"
                     >
-                      +48 517 528 292
+                      +48 669 004 609
                     </a>
                   </div>
                 </div>
@@ -246,11 +254,9 @@ const KamperyPage = () => {
                       Godziny Otwarcia
                     </h3>
                     <p className="text-white/80 text-3 leading-relaxed">
-                      Poniedziałek - Piątek: 8:00 - 17:00
+                      Poniedziałek - Piątek: 9:00 - 17:00
                       <br />
-                      Sobota: na umówienie
-                      <br />
-                      Niedziela: zamknięte
+                      Sobota - Niedziela: Zamknięte
                     </p>
                   </div>
                 </div>
@@ -264,19 +270,21 @@ const KamperyPage = () => {
                 className="bg-grey border border-yellow/20 rounded-sm p-8 md:p-10 flex flex-col justify-center"
               >
                 <h3 className="text-yellow font-bold text-5 mb-6">
-                  Zadzwoń do nas
+                  Zacznij projekt
                 </h3>
                 <p className="text-white/70 text-3 leading-relaxed mb-8">
-                  Najszybszy kontakt to rozmowa telefoniczna. Zadzwoń, a
-                  odpowiemy na wszystkie Twoje pytania i ustalimy szczegóły
-                  współpracy.
+                  Skontaktuj się z nami przez WhatsApp, aby omówić szczegóły
+                  Twojego projektu. Odpowiemy na wszystkie pytania i
+                  pomożemy zrealizować Twoje marzenia o idealnym kamperze.
                 </p>
                 <a
-                  href="tel:+48517528292"
+                  href="https://wa.me/48669004609"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-3 bg-yellow hover:bg-hover text-grey font-bold text-4 px-10 py-5 rounded-sm transition-all duration-500 hover:shadow-[0_8px_30px_rgba(227,178,20,0.4)] hover:translate-y-[-2px]"
                 >
-                  <Phone className="w-5 h-5" />
-                  <span>Zadzwoń teraz</span>
+                  <MessageCircle className="w-5 h-5" />
+                  <span>Zacznij projekt</span>
                 </a>
               </motion.div>
             </div>
