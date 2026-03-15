@@ -7,20 +7,6 @@ const LandingSelector = () => {
   return (
     <div className="min-h-screen bg-grey flex items-center justify-center px-5">
       <div className="max-w-[90rem] mx-auto w-full">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: "easeOut" }}
-          className="text-center mb-12 md:mb-16"
-        >
-          <h1 className="text-yellow font-bold text-5 md:text-7 lg:text-8 mb-4 tracking-tighter">
-            Dark Oak
-          </h1>
-          <p className="text-white text-4 md:text-5 font-medium">
-            Wybierz kategorię
-          </p>
-        </motion.div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
           <motion.button
             initial={{ opacity: 0, x: -30 }}
