@@ -32,7 +32,7 @@ const KamperyPage = () => {
       <main className="pt-20">
         <section className="relative h-[60vh] md:h-[70vh] w-full overflow-hidden">
           <img
-            src="https://images.pexels.com/photos/2526105/pexels-photo-2526105.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="/kampery-bg.webp"
             alt="Kamper van - profesjonalny serwis i budowa"
             className="absolute inset-0 w-full h-full object-cover"
           />
