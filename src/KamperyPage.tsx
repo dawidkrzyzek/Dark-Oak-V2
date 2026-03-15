@@ -21,7 +21,7 @@ const KamperyPage = () => {
             </a>
             <a
               href="/"
-              className="text-grey bg-white hover:text-yellow rounded-sm text-2 md:text-3 px-4 md:px-6 py-2 md:py-3 transition-colors duration-300 font-bold text-2 md:text-3"
+              className="text-grey bg-white hover:text-yellow rounded-sm text-2 md:text-3 px-4 md:px-6 py-2 md:py-3 duration-500 transition-colors duration-300 font-bold text-2 md:text-3"
             >
               Powrót
             </a>
