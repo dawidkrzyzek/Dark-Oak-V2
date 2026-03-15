@@ -11,7 +11,7 @@ const LandingSelector = () => {
           <motion.button
             initial={{ opacity: 0}}
             animate={{ opacity: 1}}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{ duration: 1, ease: "easeOut" }}
             onClick={() => navigate("/meble")}
             className="group relative overflow-hidden rounded-sm bg-grey border-2 border-yellow/20 hover:border-yellow transition-all duration-500 h-[400px] md:h-[500px]"
           >
