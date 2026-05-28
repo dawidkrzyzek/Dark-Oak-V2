@@ -23,18 +23,14 @@ const LandingSelector = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70 group-hover:from-black/50 group-hover:via-black/30 group-hover:to-black/60 transition-all duration-500" />
             </div>
-            <div className="relative z-10 h-full flex flex-col items-center justify-center p-8 gap-0">
-              <div className="flex items-center justify-center h-20">
-                <h2 className="text-yellow font-bold text-6 [@media(min-width:1150px)]:text-7 group-hover:scale-110 transition-transform duration-500">
-                  Meble
-                </h2>
-              </div>
-              <div className="flex items-center justify-center h-12">
-                <p className="text-white text-3 [@media(min-width:1150px)]:text-4 text-center max-w-sm">
-                  Kuchnie na wymiar, szafy i meble premium
-                </p>
-              </div>
-              <div className="mt-8 inline-flex items-center gap-2 text-yellow font-bold text-4 group-hover:translate-x-2 transition-transform duration-500">
+            <div className="relative z-10 h-full flex flex-col items-center justify-center p-8 text-center">
+              <h2 className="text-yellow font-bold text-6 [@media(min-width:1150px)]:text-7 mb-3 group-hover:scale-110 transition-transform duration-500 leading-tight">
+                Meble
+              </h2>
+              <p className="text-white text-3 [@media(min-width:1150px)]:text-4 max-w-[13rem] leading-snug">
+                Kuchnie na wymiar, szafy i meble premium
+              </p>
+              <div className="mt-6 inline-flex items-center gap-2 text-yellow font-bold text-4 group-hover:translate-x-2 transition-transform duration-500">
                 <span>Zobacz więcej</span>
                 <svg
                   className="w-6 h-6"
@@ -68,18 +64,14 @@ const LandingSelector = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70 group-hover:from-black/50 group-hover:via-black/30 group-hover:to-black/60 transition-all duration-500" />
             </div>
-            <div className="relative z-10 h-full flex flex-col items-center justify-center p-8 gap-0">
-              <div className="flex items-center justify-center h-20">
-                <h2 className="text-yellow font-bold text-6 [@media(min-width:1150px)]:text-7 group-hover:scale-110 transition-transform duration-500">
-                  Kampery
-                </h2>
-              </div>
-              <div className="flex items-center justify-center h-12">
-                <p className="text-white text-3 [@media(min-width:1150px)]:text-4 text-center max-w-sm">
-                  Serwis, naprawa i budowa kamperów
-                </p>
-              </div>
-              <div className="mt-8 inline-flex items-center gap-2 text-yellow font-bold text-4 group-hover:translate-x-2 transition-transform duration-500">
+            <div className="relative z-10 h-full flex flex-col items-center justify-center p-8 text-center">
+              <h2 className="text-yellow font-bold text-6 [@media(min-width:1150px)]:text-7 mb-3 group-hover:scale-110 transition-transform duration-500 leading-tight">
+                Kampery
+              </h2>
+              <p className="text-white text-3 [@media(min-width:1150px)]:text-4 max-w-[13rem] leading-snug">
+                Serwis, naprawa i budowa kamperów
+              </p>
+              <div className="mt-6 inline-flex items-center gap-2 text-yellow font-bold text-4 group-hover:translate-x-2 transition-transform duration-500">
                 <span>Zobacz więcej</span>
                 <svg
                   className="w-6 h-6"
@@ -113,18 +105,14 @@ const LandingSelector = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70 group-hover:from-black/50 group-hover:via-black/30 group-hover:to-black/60 transition-all duration-500" />
             </div>
-            <div className="relative z-10 h-full flex flex-col items-center justify-center p-8 gap-0">
-              <div className="flex items-center justify-center h-20">
-                <h2 className="text-yellow font-bold text-6 [@media(min-width:1150px)]:text-7 group-hover:scale-110 transition-transform duration-500">
-                  Rowery
-                </h2>
-              </div>
-              <div className="flex items-center justify-center h-12">
-                <p className="text-white text-3 [@media(min-width:1150px)]:text-4 text-center max-w-sm">
-                  Konwersja na elektryczne i serwis rowerów
-                </p>
-              </div>
-              <div className="mt-8 inline-flex items-center gap-2 text-yellow font-bold text-4 group-hover:translate-x-2 transition-transform duration-500">
+            <div className="relative z-10 h-full flex flex-col items-center justify-center p-8 text-center">
+              <h2 className="text-yellow font-bold text-6 [@media(min-width:1150px)]:text-7 mb-3 group-hover:scale-110 transition-transform duration-500 leading-tight">
+                Rowery
+              </h2>
+              <p className="text-white text-3 [@media(min-width:1150px)]:text-4 max-w-[13rem] leading-snug">
+                Konwersja na elektryczne i serwis rowerów
+              </p>
+              <div className="mt-6 inline-flex items-center gap-2 text-yellow font-bold text-4 group-hover:translate-x-2 transition-transform duration-500">
                 <span>Zobacz więcej</span>
                 <svg
                   className="w-6 h-6"
