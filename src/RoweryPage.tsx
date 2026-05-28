@@ -40,7 +40,7 @@ const RoweryPage = () => {
         </div>
       </nav>
 
-      <main id="main" role="main">
+      <main className="pt-20">
         {/* Hero Section */}
         <section
           aria-label="Baner główny Dark Oak Bike"
@@ -205,7 +205,7 @@ const RoweryPage = () => {
                   </h3>
                   <div className="w-full h-[300px] md:h-[350px] rounded-sm overflow-hidden border border-yellow/20">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2403.055716401219!2d18.7320836!3d52.9654121!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbeb428118e7ff97%3A0xfd6351632a3f0100!2sSerwis%20rowerowy!5e0!3m2!1sen!2suk!4v1773587430633!5m2!1sen!2suk"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d600.7617471837788!2d18.73123386968659!3d52.96556910600186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ccb059bc88a5d%3A0xf2f5854bdec5552b!2sDark%20Oak%20Bike%20serwis%20rowerowy!5e0!3m2!1sen!2suk!4v1779981569918!5m2!1sen!2suk"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
